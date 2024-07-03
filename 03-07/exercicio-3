@@ -1,0 +1,12 @@
+#Exercício 3:  Troque as variáveis x por z, e refaça a conta do exercício 2.
+#Aqui, basta usar o algoritmo de 3 linhas para trocar valores entre variáveis antes de calcular (x + y)*z.
+
+x = int(input("Informe o valor para x: "))
+y = int(input("Informe o valor para y: "))
+z = int(input("Informe o valor para z: "))
+
+temp = x
+x = z
+z = temp
+
+print((x + y)*z)
