@@ -1,0 +1,35 @@
+Lista de exercícios:
+
+0) Jogar dois dados (randint) e somar os valores. Imprimir o resultado na tela.
+
+1) Fazer um programa que gera valor de 0 a 100 aleatório: probabilidade de chover no dia seguinte. Quanto mais próximo de 100, mais pistas e sinais de chuva pro dia seguinte. Por exemplo, se maior que 40: "Nuvens pesadas vindo do sul", e/ou "Vento úmido e forte do sul". Use a criatividade.
+
+2) Criar um programa de banco, onde existem as opções 'saque' e 'depósito'. Uma variável guarda o saldo inicial de 100 reais. Ao sacar ou depositar, imprimir o novo saldo. (Usar if e else).
+
+3) Criar um programa que gera um valor aleatório entre 1 e 10. A ideia é gerar uma pequena roleta, em que o usuário do programa vence se cair um número par.
+
+4) Criar novamente a roleta, mas dessa vez o usuário do programa vence se cair um número entre 2 e 7.
+
+5) Encontre os erros e bugs no código abaixo. O programa deve imprimir 0, 1, ..., 9
+k = 1
+while k > 9:
+	print(k)
+	k += 1
+
+6) O que o código a seguir imprime?
+k = 0
+while k < 7:
+	if k % 2 == 0: #k % 2 significa dividir k por 2 e pegar o resto da divisão.
+		print(k)
+	k += 1
+print("Comando final, fora do bloco while")
+
+7) Usando while, escreva um programa que imprime números de 0 a n-1, onde o valor n é informado pelo teclado (input). Use while e conversão de tipos (função int) para resolver este problema.
+
+8) Preencha o que está faltando no programa a seguir. Ele gera números aleatórios entre 1 e 100, enquanto o número não estiver entre 5 e 20.
+
+from random import randint
+num = randint(1, 100)
+while num < 5 ___ num _ 20:
+	___ = randint(____)
+printf(num) #fora do bloco while.
