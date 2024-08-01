@@ -1,0 +1,22 @@
+1) Girar duas roletas que de 1 a 10 (randint(1, 10)). O usuário do programa ganha um prêmio quando o valor da primeira roleta for maior que o valor da segunda.
+
+2) Criar um programa de banco, onde faz-se um único saque. Uma variável guarda o saldo inicial de 100 reais. Ao sacar, imprimir o novo saldo. Note que se o saque for maior que o saldo, não é possível efetuá-lo.
+
+3) Criar a roleta de 1 a 10 novamente, mas dessa vez o usuário do programa vence se cair um número entre 2 e 7. (Usar > e <, ou <= e >=)
+
+4) Encontre os erros e bugs no código abaixo. O programa deve imprimir 0, 1, ..., 9 no terminal. Corrija o programa.
+k = 1
+while k > 9:
+	print(k)
+	k += 1
+
+5) Preencha o que está faltando no programa a seguir. Ele gera números aleatórios entre 1 e 100, enquanto o número não estiver entre 5 e 20.
+
+from random import randint
+
+num = randint(1, 100)
+while num < 5 ___ num _ 20:
+	___ = randint(____)
+printf(num) #fora do bloco while.
+
+6) Usando while, escreva um programa que imprime números de 0 a n-1, sendo o valor n informado pelo teclado (input). Use while e conversão de tipos (função int(), de inteiro) para resolver este problema.
