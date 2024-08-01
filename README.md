@@ -1,2 +1,2 @@
-# ds201-lp1-24
+# DS102 - LP1 - 2024
 Código produzido em sala.
