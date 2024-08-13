@@ -1,0 +1,10 @@
+1) Usando while, escreva um programa que imprime números de 0 a n-1, sendo o valor n informado pelo teclado (input). Use while e conversão de tipos (função int) para resolver este problema.
+
+2) Escreva um programa que faz a mesma coisa que o exercício 6, mas ao contrário: imprime valores de n-1 a 0.
+
+Desafio de ponto extra:
+Escreva uma calculadora que pede ao usuário do programa 2 operandos, escolhe uma operação (soma, subtração, divisão ou multiplicação) e efetua a operação. Esta calculadora deve:
+-Pedir para sair como opção no lugar do primeiro operando ("Informe o primeiro operando, ou 'sair'")
+-Não precisa tratar erros
+-Deve repetir sempre, pedindo novos operandos e operações para executar
+-Deve imprimir no terminal o histórico de operações efetuadas. Exemplo: 5 - 2 = 3.
