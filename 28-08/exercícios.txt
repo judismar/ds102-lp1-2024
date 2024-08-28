@@ -1,0 +1,7 @@
+1) Escreva um programa que lê duas strings do teclado (input()) e as imprime (print()) juntas.
+
+2) Escreva um programa que imprime a soma de duas variáveis lidas pelo teclado. (Usar int() para conversão de tipos.)
+
+3) Continue o programa 2, mas imprima cada operação aritmética.
+
+4) Escreva um programa que lê dois valores inteiros do teclado, imprime a potência do primeiro sobre o segundo, troca os valores das variáveis e repete a mesma potência, com as mesmas variáveis.
